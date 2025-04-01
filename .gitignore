@@ -23,3 +23,5 @@ static/
 
 # Ignore empty requirements.txt (but track it later when it contains dependencies)
 requirements.txt
+
+.cache_ggshield/
