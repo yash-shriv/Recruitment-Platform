@@ -1,9 +1,9 @@
 from django.urls import path
-from . import views # comment it may be
-from .views import register, home # opt
+from . import views
+from .views import register, home
 
 urlpatterns = [
-    path("", home, name="home"), # Homepage URL
+    path("", home, name="home"),
 
     # Authentication Routes
     path("login/", views.login, name="login"),
